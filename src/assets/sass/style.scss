@@ -1,0 +1,69 @@
+body, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$black: #000;
+$green:#8EAD61;
+$blue:#5661CB;
+$darkblue:#1D2B5B;
+$lightblue:#9FA6EE;
+$grey:#494949;
+$darkgrey:#272727;
+$red:#D41A36;
+$lightgrey:#7D7D7D;
+
+@font-face {
+  font-family: 'rl';
+  src: url(..//fonts/Roboto-Light.ttf)
+}
+
+@font-face {
+  font-family: 'rr';
+  src: url(..//fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'rm';
+  src: url(..//fonts/Roboto-Medium.ttf)
+}
+
+@font-face {
+  font-family: 'rb';
+  src: url(..//fonts/Roboto-Bold.ttf)
+}
+@font-face {
+  font-family: 'crm';
+  src: url(..//fonts/FontsFree-Net-SF-Compact-Rounded-Medium.ttf)
+}
+
+
+body {
+  color: $black;
+  background-color: white;
+}
+
+.container {
+  max-width: 1383px; 
+  margin: auto;
+}
+
+@import 'blocks/advice';
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/service';
+@import 'blocks/project';
+@import 'blocks/footer';
+@import 'blocks/product';
+@import 'blocks/showroom';
+@import 'blocks/company';
+@import 'blocks/contact';
+@import 'blocks/company_pro';
+@import 'blocks/delivery';
+@import 'blocks/payment';
+@import 'blocks/vacancies';
+@import 'blocks/info';
+@import 'blocks/basket';
+@import 'blocks/gelerry';
+@import 'blocks/articles';
+@import 'splide.min.scss';

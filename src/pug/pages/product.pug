@@ -1,0 +1,149 @@
+extends ../blocks/temp2.pug
+
+block content
+    .slider_sale 
+        .red
+            .sale_text До 12 ноября: скидки на кирпич 30%
+            button.sale Посмотреть товары
+                
+    .product 
+        .container
+            .product_menu
+                .ul.breadcrumbs
+                    li.item: a(href="index.html").link Главная
+                    li.item Каталог
+                    li.item Кирпич
+                    li.item Кирпич огнеупорный ШБ-5
+            .product_title Кирпич огнеупорный ШБ-5
+            .row 
+                .col-6
+                    .product_price 
+                        .price_images
+                            .price_image(style='background-image:url(assets/img/price.svg)') 
+                        .price_im
+                            .price_image2(style='background-image:url(assets/img/today.svg)')  
+                            .logo(style='background-image:url(assets/img/logotip.png)')     
+                        .product_birck 
+                            .birck
+                                img(src="../assets/img/brick.png", alt="")
+                        .product_photo 
+                            .pro_photo 
+                                img(src="../assets/img/birck1.png", alt="")
+                            .pro_photo2 
+                                img(src="../assets/img/brick2.png", alt="")
+                            .pro_photo3 
+                                img(src="../assets/img/brick3.png", alt="")
+                            .pro_photo4 
+                                img(src="../assets/img/birck4.png", alt="")
+                .col-6
+                    .product_buy 
+                        .pro
+                            .product_text Производитель:
+                            .product_bold Багдановичское ОАО “Огнеупоры”
+                        .pro
+                            .product_text Марка прочности:
+                            .product_bold M2039
+                        .pro2 
+                            .prod
+                                .product_text Товар: 
+                                .product_t на складе в Казани*
+                            .prod
+                                .product_text Доставка: 
+                                .product_t в день заказа
+                        .product_stock 
+                            .product_stock--input 
+                                input(type="radio")
+                            .product_stock--num 45 
+                            .product_stock--img 
+                                img(src="../assets/img/rubl.svg", alt="")
+                            .product_stock--how / шт
+                        .product_stock--price Цена со склада
+                        .product_stock 
+                            .product_stock--input 
+                                input(type="radio")
+                            .product_stock--num 53  
+                            .product_stock--img 
+                                img(src="../assets/img/rubl.svg", alt="")
+                            .product_stock--how / шт
+                        .product_stock--price Цена с доставкой от 20 тонн
+                        .product_include 
+                            button.minus -
+                            button.plus +
+                        .product_add 
+                            button.add Добавить в корзину
+                            button.buy Купить в 1 клик
+                        .product_a 
+                            .product_delivery 
+                                img(src="../assets/img/delivery.svg", alt="")
+                                .tex  
+                                    a(href="") Расчет доставки 
+                            .product_calc 
+                                img(src="../assets/img/calc.svg", alt="")
+                                .tex 
+                                    a(href="") Онлайн калькулятор
+            .row 
+                .col-6
+                    .product_characteristic
+                        .characteristic Характеристики
+                        table.table  
+                            tr 
+                                th
+                                th 
+                            tr.characteristic_category 
+                                td.characteristic_text Категория:
+                                td.characteristic_type   Кирпич
+                            tr.characteristic_category 
+                                td.characteristic_text Производитель: 
+                                td.characteristic_type  Багдановичское ОАО “Огнеупоры”
+                            tr.characteristic_category 
+                                td.characteristic_text Марка прочности:
+                                td.characteristic_type M2039
+                            tr.characteristic_category 
+                                td.characteristic_text Размер, мм:   
+                                td.characteristic_type       250*120*65
+                            tr.characteristic_category 
+                                td.characteristic_text Вес, кг:              
+                                td.characteristic_type   5.8
+                            tr.characteristic_category 
+                                td.characteristic_text Водополгащение, %:      
+                                td.characteristic_type  9.8
+                            tr.characteristic_category 
+                                td.characteristic_text Морозостойкость:      
+                                td.characteristic_type 35
+                            tr.characteristic_category 
+                                td.characteristic_text Расход, шт/м2:  
+                                td.characteristic_type  26
+                            tr.characteristic_category 
+                                td.characteristic_text Кол-во на поддоне, шт:           
+                                td.characteristic_type  224
+                            tr.characteristic_category 
+                                td.characteristic_text Кол-во на машине 20 т, шт:  
+                                td.characteristic_type  4032
+                            tr.characteristic_category
+                                td.characteristic_text Цвет:                              
+                                td.characteristic_type  Красный
+                .col-6 
+                    .product_description
+                        .description_title1 ОПИСАНИЕ
+                        .description_tex1 На кирпич и камень керамические общие технические условия и стандарты качества, установленные ГОСТ. Эти материалы обладают высокой прочностью, морозостойкостью, негорючестью, небольшая теплопроводность, влагостойкостью. продольное и поперечное. 
+                        .description_title Оплата
+                        .description_tex Мы принимаем наличные, банковские карты и безналичные расчеты.
+                        .description_title ДОСТАВКA
+                        .description_tex2
+                            .text_text
+                                .t Бесплатная доставка:
+                                .tx 20 км от Казани
+                            .text_text 
+                                .t Срок доставки:
+                                .tx от 2 до 20 часов с момента подтверждения заказа
+            .r 
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice                    
+                +advice

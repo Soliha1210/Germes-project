@@ -1,0 +1,84 @@
+.project{
+    .container{
+
+    }
+    .big{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 83px;
+        .bigtitle{
+            font-size: 36px;
+            font-family: 'crm';
+            margin-left: -52px;
+        }
+        .txt a{
+            font-size: 16px;
+            font-family: 'rm';
+            color:#5661CB;
+            align-items: center;
+        }
+    }      
+}
+    
+        
+    .photo{
+        display: flex;
+        .img{
+            margin-left: 26px;
+            width:433px;
+            margin-top: 30px;
+            height:264px;
+            border-radius: 12px;
+            img{
+                background-repeat: no-repeat;
+            }
+            
+            &:hover{                    
+                .pro{
+                    opacity:1;           
+                }
+            }  
+            .pro{
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                height:264px;
+                padding-top: 5px;
+                opacity:0;
+                transition: 0.3s;
+                border-radius: 12px;  
+                .title2{
+                    font-size: 22px;
+                    font-family: 'rm';
+                    margin-top: 38px;
+                    margin-left: 42px;
+                    color:white;
+                }
+                .text3{
+                    font-size: 16px;
+                    font-family: 'rr';
+                    margin-left: 42px;
+                    margin-top: 17px;
+                    margin-right: 68px;
+                    color:white;
+                }
+                .obj{
+                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                    width: 155px;
+                    height: 33px;
+                    margin-left: 42px;
+                    margin-top: 18px;
+                    border-radius: 8px;
+                    border: 2px solid white;
+                    background-color: $blue;
+                    &:focus{
+                        outline: 0;
+                    }
+                    .text{
+                        color:white;
+                        font-size: 14px;
+                        font-family: 'rr';
+                    }
+                }
+            }
+        }
+    }    
+    

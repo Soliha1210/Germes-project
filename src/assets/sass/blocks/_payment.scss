@@ -1,0 +1,96 @@
+.payment{
+  .container{
+    .delivery_menu{
+      .breadcrumbs{
+        display:flex;    
+        margin-top: 27px;
+        .item{
+          font-size: 14px;
+          font-family: 'rl';
+          list-style-type: none;
+          margin-top: 10px;
+          color:$lightgrey;
+          .link{
+            text-decoration: none;
+          }
+          &:after{
+            content: '/';
+            margin-left: 4px;
+            margin-right: 4px;
+          }
+          &:last-child::after{
+            display: none;
+          }
+        }
+      } 
+    }
+    .delivery_big{
+      width: 739px;
+      margin: auto;
+      .delivery_title{
+        margin-top: 35px;
+        font-size: 30px;
+        font-family: 'rm';
+        line-height: 35px;
+        color:$darkgrey
+      }
+      .type{
+        margin-top: 45px;
+        a{
+          font-size: 16px;
+          font-family: 'rm';
+          margin-right: 31px;
+          color:$blue;
+          &:first-child{
+            color:#1D2B5B;
+          }
+        }
+      }
+      .delivery_text{
+        margin-top: 31px;
+        font-size: 16px;
+        font-family: 'rr';
+        width:697px;
+        line-height: 24px;
+        p{
+          margin-top: 39px;
+        }
+      }
+      .qu{
+        display: flex;
+        
+        .delivery_qu{
+        
+          margin-top: 43px;
+          border-top: 1px solid $lightgrey;
+          margin-right: 57px;
+          .qu_text{
+            width:340px;
+            display: flex;
+            margin-top: 20px;  
+            border-bottom: 1px solid $lightgrey;
+            .delivery_text2{
+              font-size: 16px;
+              font-family: 'rr';
+              color:$darkgrey;
+              padding-bottom: 20px;
+              margin-right: 37px;
+            }
+            .img_up{
+              padding-top: 19px;
+            
+            }
+            .text{
+              font-size: 14px;
+              font-family: 'rl';
+              color:$grey;
+              margin-top: 13px;
+              line-height: 16px;
+              padding-bottom: -20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

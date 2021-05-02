@@ -1,0 +1,52 @@
+.company_pro {
+    .container {
+        .pro_title {
+            font-size: 30px;
+            font-family: 'rm';
+            margin-top: 53px;
+        }
+
+        .pro_pic {
+            display: flex;
+            flex-wrap: wrap;
+
+            .img {
+                margin-left: 26px;
+                width: 433px;
+                margin-top: 30px;
+                height: 264px;
+
+                img {
+                    background-repeat: no-repeat;
+                }
+
+                &:hover {
+                    .pro {
+                        opacity: 1;
+                    }
+                }
+
+                .pro {
+                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                    height: 264px;
+                    padding-top: 5px;
+                    opacity: 0;
+                    transition: 0.3s;
+
+                    .title2 {
+                        color: white;
+                    }
+
+                    .text3 {
+                        color: white;
+                    }
+
+                    .obj {
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                    }
+                }
+
+            }
+        }
+    }
+}

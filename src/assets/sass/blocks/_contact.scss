@@ -1,0 +1,102 @@
+.menu_b{
+    border-top: 1px solid #E5E5E5;
+    margin-top: 16px;
+    .breadcrumbs{
+        display:flex;    
+        margin-left: 269px;
+        margin-top: 27px;
+        .item{
+            font-size: 14px;
+            font-family: 'rl';
+            list-style-type: none;
+            margin-top: 10px;
+            color:$lightgrey;
+            .link{
+            text-decoration: none;
+            }
+            &:after{
+                content: '/';
+                margin-left: 4px;
+                margin-right: 4px;
+            }
+            &:last-child::after{
+                display: none;
+            }
+        } 
+    }
+    
+}
+
+.map{
+    height:488px;
+    margin-top: 27px;
+}
+.contact{
+    .container{
+        .contact_info{
+            margin-top: 53px;
+            display: flex;
+            .contact_big{
+                max-width: 75%;
+                .contact_title{
+                    font-size: 30px;
+                    font-family: 'rm';
+                    color:$darkgrey;
+                }
+                .contact_text{
+                    font-size: 16px;
+                    font-family: 'rr';
+                    color:$darkgrey;
+                    width:884px;
+                    margin-top: 22px;
+                }
+                .contact_address{
+                    display: flex;
+                    padding-right: 109px;
+                    .address{
+                        margin-top: 24px;
+                        .address_info{
+                            margin-right: 109px;
+                            margin-top: 18px;
+                            .address_title{
+                                font-size: 22px;
+                                font-family: 'rm';
+                                color:$darkgrey;
+                            }
+                            .address_text{
+                                font-size: 16px;
+                                font-family: 'rr';
+                                color:$darkgrey;
+                                margin-top: 13px;
+                                p{
+                                    color:$blue;
+                                }
+                            }
+                            .address_text2{
+                                font-size: 16px;
+                                font-family: 'rr';
+                                color:$blue;
+                                margin-top: 13px;
+                                display: flex;
+                                p{ 
+                                    color:$darkgrey;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .contact_pic{
+                flex-basis: 25%;
+                max-width: 25%;
+                margin-left: 90px;
+                .pic{
+                    img{
+                        width:406px;
+                        height:315px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.footer
+    .logo2{
+        // justify-content: center;
+        display:flex;
+        align-items: center;
+        margin-top: 91px;
+        width: 100%;
+        // .logo{
+        //     // margin:0;
+        //     // padding:0;
+        // }
+    }
+.info2{
+    background-color: #F7F7F7;
+    margin-top: 23px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #B8B8B8;
+    }
+        .title{
+            font-size: 24px;
+            padding-top: 41px;
+            font-family: 'crm';
+        }
+}
+            .menu{    
+                list-style-type: none; 
+                margin-top: 23px;          
+                a{
+                font-size: 16px;
+                font-family:'rr';         text-decoration: none;
+                color:$black;
+            }
+        }
+            .number{
+                font-size: 16px;
+                font-family: 'rm';
+                margin-top: 22px;
+            }
+            .title a{
+                font-size: 16px;
+                font-family: 'rr';
+                color:$black;
+            }
+            .logotip img{
+                margin-right: 10px;
+                margin-top: 14px;
+            }
+                .city{
+                    font-size: 16px;
+                    font-family: 'rm';
+                    margin-top: 22px;
+                }
+                .street{
+                    font-size: 16px;
+                    font-family: 'rr';
+                    margin-top: 6px;
+                    text-decoration: underline;
+                }
+                .work{
+                    font-size: 16px;
+                    font-family: 'rr';
+                    margin-top: 9px;
+                }
+        .order{
+            width:199px;
+            height: 40px;
+            margin-top: 92px;
+            background-color: $blue;
+            border-radius: 8px;
+            border:0;
+            &:focus{
+                outline: 0;
+            }
+            .text{
+                color:white;
+                font-size: 18px;
+                font-family: 'rr';
+            }
+        }
+.footer_bottom{
+    background-color: #F7F7F7;
+}
+        .inform{
+            display:flex;
+            padding-top: 26px;
+        }
+            .text{
+                font-size: 14px;
+                font-family: 'rr';
+            }
+            .card{
+                margin-left: 256px;
+                display:flex;
+                img{
+                    margin-right: 30px;
+                }
+            }

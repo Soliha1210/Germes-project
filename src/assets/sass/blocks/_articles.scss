@@ -1,0 +1,103 @@
+.articles{
+  margin-top: 85px;
+  .container{
+    background-color: #F8F8F8;
+    .articles_menu{ 
+      margin-top: 31px;
+      margin-left: 29px;
+      .breadcrumbs{
+        display: flex;
+        .item{
+          font-size: 14px;
+          font-family: 'rl';
+          list-style-type: none;
+          margin-top: 10px;
+          color:$lightgrey;
+          .link{
+            text-decoration: none;
+          }
+          &:after{
+            content: '/';
+            margin-left: 4px;
+            margin-right: 4px;
+          }
+          &:last-child::after{
+            display: none;
+          }
+        }
+      }
+    }
+    .articles_title{
+      font-family: 'crm';
+      font-size: 30px;
+      color:$darkgrey;
+      margin-top: 31px;
+    }
+    .articles_text{
+      margin-top: 30px;
+      a{
+        font-size: 18px;
+        font-family: 'rm';
+        color:$grey;
+        text-decoration: none;
+        margin-right: 73px;
+        &:active{
+          color:$blue;
+        }
+        &:hover{
+          color:$blue;
+        }
+      }
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      .col-3{
+        flex-basis: 25%;
+        max-width: 25%;
+        padding: 20px;
+        .art_big{
+          background-color: white;
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+          width: 330px;
+          overflow: hidden;
+          border-radius: 12px 12px 0px 0px;
+          .art{
+            margin-top: 20px;
+            margin-left: 18px;
+            height: 180px;
+            .art_title{
+              font-size: 18px;
+              font-family: 'crm';
+              color:$darkgrey;
+            }
+            .art_date{
+              font-size: 12px;
+              font-family: 'rr';
+              color:$grey;
+              margin-top: 13px;
+            }
+            .art_text{
+              font-size: 14px;
+              font-family: 'rr';
+              color:$darkgrey;
+              margin-top: 9px;
+              line-height: 162.19%;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .art_link{
+      font-size: 18px;
+      font-family: 'rm';
+      color:$blue;
+      text-align: center;
+    }
+  }
+}
+.footer{
+  display: none;
+}

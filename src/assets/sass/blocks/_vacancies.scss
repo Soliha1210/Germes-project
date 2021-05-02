@@ -1,0 +1,129 @@
+.vacancies{
+  margin-top: 28px;
+  .container{
+    .vacancies_menu{
+      .breadcrumbs{
+        display:flex;    
+        margin-top: 27px;
+        .item{
+          font-size: 14px;
+          font-family: 'rl';
+          list-style-type: none;
+          margin-top: 10px;
+          color:$lightgrey;
+          .link{
+            text-decoration: none;
+          }
+          &:after{
+            content: '/';
+            margin-left: 4px;
+            margin-right: 4px;
+          }
+          &:last-child::after{
+            display: none;
+          }
+        }
+      } 
+    }
+    .vacan_big{
+      width: 1000px;
+      margin: auto;
+      .vacancies_title{
+        font-size: 30px;
+        font-family: 'rm';
+        margin-top: 28px;
+      }
+      .vacancies_img{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 46px;
+        .vac_back{
+          height: 207px;
+          width: 295px;
+          margin-right: 32px;
+          margin-bottom: 34px;
+          
+          img{
+            background-repeat: no-repeat;
+          }
+          &:hover{                      
+            .vac{
+                opacity:1;           
+            }
+            .vac2{
+              opacity: 1;
+            }
+          } 
+          .vac{
+            opacity: 0;
+            background: rgba(29, 43, 91, 0.74);
+            backdrop-filter: blur(4px);
+            border-radius: 4px;
+            height: 207px;
+            width: 295px;
+            transition: 0.3s;
+            padding-top: 55px;
+            padding-left: 27px;
+            .vac_title{
+              a{
+                font-size: 22px;
+                font-family: 'rb';
+                color:white;
+                text-decoration: none;
+              }
+              
+            }
+            .vac_btn{
+              width:115px;
+              height: 33px;
+              background-color: $blue;
+              border:0;
+              border-radius: 5px;
+              color:white;
+              font-size: 14px;
+              font-family: 'rr';
+              margin-top: 25px;
+              &:focus{
+                outline: 0;
+              }
+            }
+          }
+          .vac2{
+            opacity: 0;
+            background: rgba(91, 59, 29, 0.74);
+            backdrop-filter: blur(4px);
+            border-radius: 4px;
+            height: 207px;
+            width: 295px;
+            transition: 0.3s;
+            padding-top: 55px;
+            padding-left: 27px;
+            .vac_title{
+              a{
+                font-size: 22px;
+                font-family: 'rb';
+                color:white;
+                text-decoration: none;
+              }
+              
+            }
+            .vac_btn{
+              width:115px;
+              height: 33px;
+              background-color: $blue;
+              border:0;
+              border-radius: 5px;
+              color:white;
+              font-size: 14px;
+              font-family: 'rr';
+              margin-top: 25px;
+              &:focus{
+                outline: 0;
+              }
+            }
+          }
+        }
+      }
+    }  
+  }
+}

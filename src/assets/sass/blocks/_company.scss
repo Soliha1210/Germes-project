@@ -1,0 +1,219 @@
+.company{
+    .container{
+        .company_menu{
+            .breadcrumbs{
+                display:flex;
+                .item{
+                    font-size: 14px;
+                    font-family: 'rl';
+                    list-style-type: none;
+                    margin-top: 10px;
+                    color:$lightgrey;
+                    .link{
+                    text-decoration: none;
+                    }
+                    &:after{
+                        content: '/';
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                    &:last-child::after{
+                        display: none;
+                    }
+                } 
+            }
+        }
+        .company_title{
+            font-size: 30px;
+            font-family: 'rm';
+            margin-top: 41px;
+            .company_info{
+                display: flex;
+                margin-top: 39px;
+                .company_text{
+                    font-size: 18px;
+                    font-family: 'rm';
+                    margin-left: 103px;
+                    .company_txt{
+                        display: flex;
+                        
+                        .comp{
+                            font-size: 22px;
+                            font-family: 'rb';
+                            color:$blue;
+                            margin-right: 50px;
+                            margin-top: 24px;
+                            .comp_t{
+                                font-size: 18px;
+                                font-family: 'rr';
+                                color:$darkgrey;
+                            }
+                        }
+                    }
+                    .comp_txt2{
+                        font-size: 16px;
+                        font-family: 'rr';
+                        margin-top: 29px;
+                        color:$darkgrey;
+                    }
+                    .comp_t2{
+                        font-size: 16px;
+                        font-family: 'rr';
+                        margin-top: 13px;
+                        color:$darkgrey;
+                    }
+                }
+            }
+        }
+        .company_sertificate{
+            font-size: 30px;
+            font-family: 'rm';
+            margin-top: 45px;
+            .sertificate{
+                display: flex;
+                .sertificate_img{
+                    height:400px;
+                    width:279px;
+                }
+                .ser{
+                    .sertificate_fon{
+                        display: flex;
+                        width:100%;
+                        height:326px;
+                        background-color: $blue;
+                        margin-left: 19px;
+                        
+                        .sertificate_img1{
+                            img{
+                                height:330px;
+                                width:230px;
+                                margin-left: 44px;
+                                padding-bottom: 22px;
+                            
+                            }                 
+                        }
+                    }
+                    .blue_left{
+                        width:25px;
+                        height:25px;
+                        border-radius: 50%;
+                        border:1px solid $blue;
+                        background-color: white;
+                        margin-left: 44px;
+                        margin-right: 14px;
+                        &:focus{
+                            outline: 0;
+                        }
+                    }
+                    .white_right{
+                        width:25px;
+                        height:25px;
+                        border-radius: 50%;
+                        border:0;
+                        background-color: $blue;
+                        &:focus{
+                            outline: 0;
+                        }
+                    }
+                }                  
+            }           
+        }
+        .company_pro{
+            .pro_title{
+                font-size: 30px;
+                font-family: 'rm';
+                margin-top: 53px;
+            }
+            .pro_pic{
+                display: flex;
+                flex-wrap: wrap;
+                .img{
+                    margin-left: 26px;
+                    width:433px;
+                    margin-top: 30px;
+                    height:264px;
+                    img{
+                        background-repeat: no-repeat;
+                    }
+                    
+                    &:hover{                      
+                        .pro{
+                            opacity:1;           
+                        }
+                    }  
+                    .pro{
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                        height:264px;
+                        padding-top: 5px;
+                        opacity:0;
+                        transition: 0.3s;
+                        .title2{
+                            color:white;
+                            font-size: 22px;
+                            font-family: 'rm';
+                            margin-top: 38px;
+                            margin-left: 42px;
+                        }
+                        .text3{
+                            color:white;
+                            font-size: 16px;
+                            font-family: 'rr';
+                            margin-left: 42px;
+                            margin-top: 17px;
+                            margin-right: 68px;
+                        }
+                        .obj{
+                            background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgba(86, 97, 203, 0.68);
+                            width: 155px;
+                            height: 33px;
+                            margin-left: 42px;
+                            margin-top: 18px;
+                            border-radius: 8px;
+                            border: 2px solid white;
+                            background-color: $blue;
+                            &:focus{
+                                outline: 0;
+                            }
+                            .text{
+                                color:white;
+                                font-size: 14px;
+                                font-family: 'rr';
+                            }
+                        }
+                    }                    
+                }                
+            } 
+        }
+    }    
+    .bg{
+        background-color: #F7F7F7;
+        margin-top: 46px;
+        height:579px;
+        .container{
+            .company_comment{
+                padding-top: 43px;
+                .comment{
+                    font-size: 30px;
+                    font-family: 'rm';
+                    width:884px;
+                    .comment_text{
+                        font-size: 16px;
+                        font-family: 'rr';
+                        margin-top: 20px;
+                        flex-wrap: wrap;
+                    }    
+                }
+                .comment_all{
+                    display: flex;
+                    comment_img{
+                        margin-top: 22px;
+                    }
+                    .c_i{
+                        margin-top: -88px;
+                    }
+                }
+            
+        }
+        }    
+    }
+}

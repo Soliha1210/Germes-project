@@ -1,0 +1,89 @@
+extends ..//blocks/temp.pug
+
+block content 
+  .basket 
+    .container 
+      .basket_menu 
+        .ul.breadcrumbs 
+          li.item: a(href="index.html").link Главная 
+          li.item Корзина 
+      .basket_title Корзина
+      .basket_big 
+        .basket_table 
+          .table_title Кирпичи
+          table 
+            tr 
+              th 
+              th Наименования товара
+              th Количество:
+              th Итого:
+              th 
+              th 
+            tr 
+              td 
+                img(src="../assets/img/gisht.png", alt="")
+              td 
+                .gisht Кирпич огнеупорный ШБ-5
+                  <p> Кол-во на поддоне, шт. - 297
+                  <p> Формат одинарный
+              td.btn
+                button.minus -
+                .num 0
+                button.plus +
+              td
+                .price 10,260.00 
+                  img(src="../assets/img/r.svg", alt="")
+              td 
+                .star
+                  img(src="../assets/img/starblue.svg", alt="")
+                  img(src="../assets/img/del.svg", alt="")
+          .basket_input 
+            .input_text Ввести промокод: 
+              input(type="text")
+            .button
+              button.basket_button Оформить заказ
+              button.basket_button Купить в 1 клик  
+        .basket_right 
+          .basket_delivery 
+            img(src="../assets/img/car.svg", alt="")
+            .del_t Доставка стройматериалов и аренда спецтехники
+          .basket_delivery 
+            img(src="../assets/img/foiz.svg", alt="")
+            .del_t Доставка стройматериалов и аренда спецтехники
+          .basket_delivery 
+            img(src="../assets/img/rub.svg", alt="")
+            .del_t Предлагаем лучшую цену
+          .basket_delivery 
+            img(src="../assets/img/week.svg", alt="")
+            .del_t Работаем 7 дней в неделю
+      .basket_table 
+          .table_title Газобетонные блоки
+          table 
+            tr 
+              th 
+              th Наименования товара
+              th Количество:
+              th Итого:
+              th 
+              th 
+            tr 
+              td 
+                img(src="../assets/img/gishtwhite.png", alt="")
+              td 
+                .gisht Кирпич огнеупорный ШБ-5
+                  <p> Кол-во на поддоне, шт. - 297
+                  <p> Формат одинарный
+              td.btn
+                button.minus -
+                .num 0
+                button.plus +
+              td
+                .price 10,260.00 
+                  img(src="../assets/img/r.svg", alt="")
+              td 
+                .star
+                  img(src="../assets/img/starblue.svg", alt="")
+                  img(src="../assets/img/del.svg", alt="")
+          .basket_btns 
+              button.bas_btn Оформить заказ
+              button.bas_btn Купить в 1 клик    

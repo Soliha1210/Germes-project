@@ -1,0 +1,31 @@
+extends ..//blocks/temp.pug
+
+block content 
+  .articles
+    .container 
+      .articles_menu 
+        .ul.breadcrumbs 
+            li.item: a(href="index.html").link Главная 
+            li.item Корзина 
+        .articles_title Статьи
+        .aricles_text 
+            a.link(href="") Все статьи
+            a(href="") Благоустройство
+            a(href="") Госты
+            a(href="") Кровельные материалы
+            a(href="") Стеновые материалы
+      .row
+        +articles
+        +articles ('art2.png')
+        +articles ('art3.png')
+        +articles ('art4.png')
+        +articles
+        +articles ('art2.png')
+        +articles ('art3.png')
+        +articles ('art4.png')
+        +articles
+        +articles ('art2.png')
+        +articles ('art3.png')
+        +articles ('art4.png')
+      .art_link 
+        a(href="") Показать еще 

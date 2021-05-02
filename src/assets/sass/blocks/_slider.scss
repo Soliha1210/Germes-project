@@ -1,0 +1,461 @@
+.slid{   
+    .container{
+        display:flex; 
+        .catalog{
+            width: 300px;
+            height: 330px;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(208, 208, 208, 0.25);
+            border-radius: 4px;
+            margin-top: 11px;
+            .menu {
+                list-style-type: none;
+                margin-top: 9px;    
+                position: relative;
+                a{
+                    margin-top: 13px;
+                    display:inline-block;
+                    font-size: 16px;
+                    font-family: 'rr';
+                    margin-left: 51px;                                         
+                    color:$black;
+                    text-decoration: none; 
+                    &:hover{
+                        color:#D41A36;
+                    }
+                }
+                .l:after{
+                    content:'>';
+                    right:0;
+                    margin-right: 15px;
+                    position: absolute;
+
+                }
+            }
+        }
+
+    }
+    .home{
+        margin-top: 37px;
+        margin-left: 45px;
+        display:flex;
+        position: relative;
+        .photo{
+            .img{
+                height:23px;
+                width: 116px;
+                top: 0px;
+                position: absolute;
+                margin-top: 19px;
+            }
+        }
+        .ban{
+            background-color: $blue;
+            color:white;
+            height:301px;
+            width:398px;
+            border-radius: 0px 12px 12px 0px;
+            position: absolute;
+            right:0;
+            .big{
+                margin-left: 56px;
+                margin-top: 31px;
+                .title{
+                    font-size: 22px; 
+                    font-family: 'crm';
+                }
+                .text{
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-family: 'rl';
+                }
+                .text1{
+                    margin-top: 3px;
+                    font-size: 14px;
+                    font-family: 'rl';
+                }
+                .text2{
+                    display:flex;
+                    
+                    a{
+                        text-decoration: underline;
+                        color:white;
+                        font-size: 12px;
+                        font-family: 'rl';
+                        margin-top: 10px;
+                        margin-right: 10px;
+                    }
+                }
+                .price{
+                    display:flex;
+                    align-items: center;
+                    margin-top: 13px;                       
+                    .num{
+                        font-size: 26px;
+                        font-family: 'rm';
+                    }
+                    img{
+                        padding-left: 5px;
+                    }
+                    .t{
+                        font-family: 'rr';
+                        font-size: 20px;
+                        
+                    }                       
+                }
+                .buy {
+                    width: 142px;
+                    height: 33px;
+                    margin-top: 13px;
+                    border-radius: 4px;
+                    background-color: white;
+                    border:0;
+                    &:focus{
+                        outline: 0;
+                    }
+                    .text{
+                        font-size: 16px;
+                        font-family: 'rr';
+                        line-height: 16px;
+                        color:#272727;
+                        margin-top: 9px;
+                        display:inline-block;
+                    }
+                }
+                .korzina{
+                    width: 55px;
+                    height: 33px;
+                    margin-left: 9px;
+                    background-color: $blue;
+                    border: 2px solid white;
+                    border-radius: 4px;
+                    &:focus{
+                        outline: 0;
+                    }
+                }
+            }    
+        }
+    }
+}        
+.slid_bottom{
+    margin-left: 500px;
+    margin-top: 26px;
+    .container{
+        display:flex;
+        .info{
+            display: flex;
+            align-items: center; 
+            .p{
+                width: 49px;
+                height: 49px;
+                border: 0;
+                border-radius: 8px;
+                &:focus{
+                    outline: 0 ;
+                }
+            }
+            .text{
+                font-size: 14px;
+                font-family: 'rr';
+                margin-left: 12px;
+                margin-right: 81px;  
+            }
+        }
+    }
+}        
+.category{
+    .container{
+        .category_slid{
+            margin-top: 29px;
+            .breadcrumbs{
+                display:flex;
+                .item{
+                    font-size: 14px;
+                    font-family: 'rl';
+                    list-style-type: none;
+                    margin-top: 10px;
+                    color:$lightgrey;
+                    .link{
+                    text-decoration: none;
+                    }
+                    &:after{
+                        content: '/';
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                } 
+            }
+            .big_title{
+                font-size: 30px;
+                font-family: 'rm';
+                color:$darkgrey;
+                margin-top: 18px;
+            }
+            .menu2{
+                display:flex;
+                .modal{
+                    .left2{
+                        width: 355px;
+                        height:225px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 0.896528px 8.96528px rgba(208, 208, 208, 0.25);
+                        border-radius: 4px;
+                        margin-top: 39px;
+                        .menu_title{
+                            font-size: 20px;
+                            font-family: 'rm';
+                            color: $darkgrey;
+                            padding-top: 21px;
+                            padding-left: 21px;
+                        }
+                        .menu_t{
+                            font-size: 16px;
+                            font-family: 'rr';
+                            padding-top: 13px;
+                            padding-left: 20px;
+                        }
+                        
+                    }
+                    .type{
+                        width:355px;
+                        height:606px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 0.896528px 8.96528px rgba(208, 208, 208, 0.25);
+                        border-radius: 4px;
+                        margin-top: 44px;
+                        padding-left: 21px;
+                        .made{
+                            padding-top: 27px;
+                            font-size: 20px;
+                            font-family: 'rm';
+                            color: $darkgrey;
+                        }
+                        .check{
+                            display:flex;
+                            padding-top: 13px;
+                            .t{
+                                padding-left: 21px;
+                            }
+                        }
+                    }
+                }
+                .banner{
+                    margin-left: 46px;
+                    padding:10px;
+                    .banner_img{
+                        height:103px;
+                        background-repeat: no-repeat;
+                        width:956px;
+                        margin-top: 35px;
+                        padding-top: 16px;
+                        .orange{
+                            height:54px;
+                            width:285px;
+                            margin-left: 21px;               
+                            color:white;
+                            padding-top: 10px;
+                            padding-left: 5px;
+                            font-size: 26px;
+                            font-family: 'rm';             
+                        }
+                    }
+                    .sort{
+                        display:flex;
+                        margin-top: 30px;
+                        .sort_text{
+                            font-size: 16px;
+                            font-family: 'rr';
+                            color:$grey;
+                        }
+                        .po{
+                            text-decoration: underline;
+                            border:0;
+                            font-size: 16;
+                            font-family: 'rm';
+                            color:$grey;
+                            margin-left: 8px;
+                            margin-right: 200px;
+                            &:focus{
+                                outline: 0;
+                            }
+                            &:hover{
+                                color:$blue;
+                            }
+                        }
+                        .sort_t{
+                            border-right: 1px solid #BDBDBD;
+                            padding-right: 15px;
+                            padding-left: 15px;
+                            text-decoration: underline;
+                            color:$grey;
+                        }
+                        .sort_t2{
+                            padding-right: 15px;
+                            padding-left: 15px;
+                            text-decoration: underline;
+                            color:$grey;
+                        }
+                    }
+                    .ad{
+                        display:flex;
+                        flex-wrap: wrap;
+                        .special{
+                            flex-basis: 25%;
+                            max-width: 25%;
+                            padding:10px;
+                            .cart{
+                                border: 1px solid #c7c5c5;
+                                border-radius: 5px;
+                                .images{
+                                    position: relative; 
+                                    .image{
+                                        height:23px;
+                                        width:109px; 
+                                        background-size: contain; 
+                                        margin-top: 13px;    
+                                    }     
+                                    .image1{
+                                        position:absolute;  
+                                        background-color: white; 
+                                        border:0; 
+                                        right: 0;
+                                        top: 5px;
+                                        margin-right: 9px;
+                                    }                 
+                                }
+                                .b{
+                                    width:142px;
+                                    height:33px;
+                                    margin-left: 9px;
+                                    border-radius: 4px;
+                                    background-color: $blue;
+                                    color:white;
+                                    margin-right: 2px;
+                                    margin-bottom: 13px;
+                                    &:focus{
+                                        outline: 0;
+                                    }
+                                }
+                                .btn2{
+                                    width: 55px;
+                                    height: 33px;
+                                    background-color: white;
+                                    border: 2px solid $blue;
+                                    border-radius: 5px;
+                                    &:focus{
+                                        outline: 0;
+                                    }
+                                }
+                                .i{
+                                    margin-left: 45px;
+                                    margin-top: 18px;
+                                }
+                                .title{
+                                    font-size: 16px;
+                                    margin-left: 9px;
+                                    margin-bottom: 8px;
+                                }
+                                .text{
+                                    font-size: 14px;
+                                    font-family: 'rl';
+                                    margin-left:9px;             
+                                }
+                                .text1 a{
+                                    font-size: 12px;
+                                    font-family: 'rl';
+                                    margin-top: 9px;
+                                    margin-left: 9px;
+                                    color:#7D7D7D;
+                                    
+                                }
+                                .price{
+                                    font-size: 20px;
+                                    font-family: 'rm';
+                                    display: flex;
+                                    align-items: center;
+                                    margin-left: 9px;
+                                    margin-top: 11px;
+                                    &:hover{
+                                        color:#D41A36;
+                                    }
+                                    img{
+                                        margin-left: 4px;
+                                    }
+                                    .t{
+                                        font-size: 10px;
+                                        font-family: 'rr';
+                                    }
+                                }   
+                            } 
+                        }   
+                    }
+                    .next3{
+                        display: flex;
+                        .next3_l{
+                            border-radius: 50%;
+                            width: 25px;
+                            height:25px;
+                            border: 1px solid $blue;
+                            background-color: white;
+                            margin-right: 15px;
+                            &:focus{
+                                outline: 0;
+                            }
+                        }
+                        .next3_r{
+                            border-radius: 50%;
+                            width: 25px;
+                            height:25px;
+                            background-color: $blue;
+                            border:0;
+                            &:focus{
+                                outline: 0;
+                            }
+                        }
+                        .next3_num{
+                            color:$blue;
+                            font-size: 25px;
+                        }
+                    }
+                    .buy3{
+                        margin-top: 72px;
+                        .buy3_title{
+                            font-size: 30px;
+                            font-family: 'rm';
+                        }
+                        .kazan{
+                            margin-top: 47px;
+                            .seo{
+                                position: absolute;
+                                margin-left: -183px;
+                                .seo1{
+                                    font-size: 18px;
+                                    font-family: 'rm';
+                                }
+                                .seo2{
+                                    font-size: 18px;
+                                    font-family: 'rm';
+                                    margin-top: 103px;
+                                }
+                                .seo3{
+                                    font-size: 18px;
+                                    font-family: 'rm';
+                                    margin-top: 74px;
+                                }
+                            }
+                            .plus{
+                                list-style-type: circle;
+                                .buy3_text{
+                                    font-size: 16px;
+                                    font-family: 'rr';
+                                    margin-top: 30px;
+                                    line-height: 26px;
+                                }
+                            }
+                        }
+                    }
+                }            
+            }    
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.advice{
+    .container{
+        .big{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 53px;
+            .bigtitle{
+                font-size: 36px;
+                font-family: 'crm';
+            }
+            .txt a{
+                color:#D41A36;
+                font-size: 16px;
+                font-family: 'rm';  
+                align-items: center;            
+            }
+        }    
+        .r{
+            display: flex;            
+            flex-wrap:wrap;           
+            .special{
+                flex-basis: 20%;
+                padding:10px;
+                max-width: 20%;
+                .cart{
+                    border: 1px solid #c7c5c5;
+                    border-radius: 5px;
+                    .images{
+                        position: relative; 
+                        .image{
+                            height:23px;
+                            width:109px; 
+                            background-size: contain; 
+                            margin-top: 13px;    
+                        }     
+                        .image1{
+                            position:absolute;  
+                            background-color: white; 
+                            border:0; 
+                            right: 0;
+                            top: 5px;
+                            margin-right: 9px;
+                        }                 
+                    }
+                    .i{
+                        margin-left: 45px;
+                        margin-top: 18px;
+                    }
+                    .title{
+                        font-size: 16px;
+                        margin-left: 9px;
+                        margin-bottom: 8px;
+                    }
+                    .text{
+                        font-size: 14px;
+                        font-family: 'rl';
+                        margin-left:9px;             
+                    }
+                    .text1 a{
+                        font-size: 12px;
+                        font-family: 'rl';
+                        margin-top: 9px;
+                        margin-left: 9px;
+                        color:#7D7D7D;
+                        
+                    }
+                    .price{
+                        font-size: 20px;
+                        font-family: 'rm';
+                        display: flex;
+                        align-items: center;
+                        margin-left: 9px;
+                        margin-top: 11px;
+                        &:hover{
+                            color:#D41A36;
+                        }
+                        img{
+                            margin-left: 4px;
+                        }
+                        .t{
+                            font-size: 10px;
+                            font-family: 'rr';
+                        }
+                    }
+                    .b{
+                        width:158px;
+                        height:33px;
+                        margin-left: 9px;
+                        border-radius: 4px;
+                        background-color: $blue;
+                        color:white;
+                        &:focus{
+                            outline: 0;
+                        }
+                        .text{
+                            font-size: 14px;
+                            font-family: 'rr';
+                        }
+                    }                     
+                    .btn2{
+                        width: 55px;
+                        height: 33px;
+                        background-color: white;
+                        border: 2px solid $blue;
+                        border-radius: 5px;
+                        &:focus{
+                            outline: 0;
+                        }
+                    }
+                }   
+            }
+        }
+        
+    }
+    
+}   

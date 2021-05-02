@@ -1,0 +1,151 @@
+.header{
+    margin-top: 29px;
+    border-bottom: 2px solid #D3D3D3;
+    height:111px;
+    .container{
+        display:flex;
+        justify-content: space-between;
+        .menu{
+            display: flex;
+            list-style-type: none;
+            margin-left: 155px;
+            a{
+                text-decoration: none;
+                margin-right: 94px;
+                color: $black;
+                font-size: 18px;
+                font-family: 'rr';
+            }
+        }
+        .right{
+            margin-top: 22px;
+            img{
+                margin-right: 42px;            
+            }
+        }
+        .info{
+            .number{
+                font-size: 24px;
+                font-family: 'rr';
+            }
+            a{
+                font-size: 16px;
+                font-family: 'rr';
+                color:$blue;
+            }
+        }
+    }    
+}   
+.header_bottom{
+    margin-top: 28px;
+    .container{
+        display: flex;
+        .bottom{
+            .cat{
+                background-color: $blue;
+                width:300px;
+                height:40px;     
+                border-radius: 4px;              
+                border:0;
+                position: relative;
+                color: white;
+                font-size: 18px;
+                font-family: 'rr';
+                padding-right: 115px;
+                span{
+                    display:inline-block;
+                    width: 11px;
+                    height: 2px;
+                    left:14px;
+                    top:18px;
+                    position: absolute;
+                    align-items: center;
+                    background-color: white;
+                    margin-right: 16px;
+                }   
+                &:focus{
+                    outline: 0;
+                }  
+            }
+            .cat::before{
+                content:'';
+                display: inline-block;
+                width:20px;
+                height:2px;
+                background-color: white;
+                left:14px;
+                top:11px;
+                position: absolute;
+            }
+            .cat::after{
+                content:'';
+                display:inline-block;
+                width:20px;
+                height:2px;
+                background-color: white;
+                left:14px;
+                bottom:14px;
+                position: absolute;
+            }
+        }
+        .sale a{
+            font-size: 18px;
+            font-family: 'rm';
+            color:#494949;           
+            text-decoration: none;
+            margin-top: 30px;
+            margin-left: 71px;
+            text-transform: uppercase;
+            &:hover{
+            color:#D41A36; 
+            }
+        }
+        .inp_search {
+            display:flex; 
+            border: 2px solid grey;
+            border-radius: 8px;
+            height:40px;      
+            width:248px;
+            margin-left: 71px;
+            padding-left: 15px;
+            input{                 
+                background-color: white; 
+                border: 0;      
+                &:focus{
+                    outline: 0;
+                }                          
+            }
+            .search {
+                border:0;
+                background-color: white;
+                margin-left: 43px;
+                &:focus{
+                    outline: 0;
+                }
+            }
+        }
+        .company a{
+            color:#494949;
+            font-size: 18px;
+            font-family: 'rm';
+            margin-left: 71px;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:hover{
+                color:#D41A36;
+            }
+        }
+        .btn{
+            width:199px;
+            height:40px;
+            background-color: $blue;
+            border-radius: 4px;
+            margin-left: 69px;
+            .text{
+                font-size: 18px;
+                font-family: 'rr';
+                color:white;
+            }
+        } 
+    }
+}         

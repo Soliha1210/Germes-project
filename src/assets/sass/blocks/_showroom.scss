@@ -1,0 +1,29 @@
+.showroom{
+    .container{
+        .big{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 57px;
+            .bigtitle{
+                font-size: 36px;
+                font-family: 'crm';
+                margin-left: -52px;
+            }
+            .txt a{
+                color:$blue;
+                font-size: 16px;
+                font-family: 'rm';
+                align-items: center;
+            }
+        }
+        .photo3{
+        margin-top: 29px;
+            img{
+                padding-right: 28px;
+            }
+        }
+    }
+}
+    
+        
+    
